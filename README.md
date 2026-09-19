@@ -6,7 +6,7 @@ End-to-end Delta Lakehouse pipeline built on Azure Databricks
 using the Brazilian E-Commerce (Olist) dataset from Kaggle.
 
 ## Architecture
-[paste your architecture diagram here]
+![Architecture](ecommerce_delta_lakehouse_architecture.png)
 
 ADLS Landing Zone (CSVs)
   → Autoloader (cloudFiles, checkpoint, exactly-once)
